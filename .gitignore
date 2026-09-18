@@ -45,3 +45,6 @@ next-env.d.ts
 Thumbs.db
 .vscode/
 .idea/
+backend/.env.example
+.env.local.example
+frontend/.env.local.example

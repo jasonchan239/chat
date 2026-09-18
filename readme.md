@@ -24,7 +24,7 @@ chat/
 ```python
 # Run backend:
 cd backend
-python -m venv .venv; .\.venv\Scripts\activate
+python -m venv .venv; .\backend\.venv\Scripts\activate
 pip install -r requirements.txt
 copy .env.example .env
 # edit .env -> set ANTHROPIC_API_KEY
