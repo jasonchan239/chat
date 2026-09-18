@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.python-version
+
+# Virtual envs (both locations)
+.venv/
+venv/
+ENV/
+backend/.venv/
+backend/venv/
+
+# Env / secrets — keep examples
+.env
+.env.local
+*.pem
+!.env.example
+!**/.env.example
+!**/.env.local.example
+
+# Backend — RAG data (regenerable / user docs)
+backend/chroma_db/
+chroma_db/
+*.sqlite3
+
+# Frontend — Next.js / Node
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs / OS / IDE
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
